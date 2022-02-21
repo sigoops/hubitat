@@ -36,7 +36,7 @@ def parse(String description) {
 def deviceNotification(message) {
     try {
         if (logEnable) log.debug "Sending notification message: ${message}"
-        sendEvent(name: "notification", value: message)
+        sendEvent(name: "notification", value: message, isStateChange: true)
     } catch (Exception e) {
         log.warn "Call send notification failed: ${e.message}"
     }

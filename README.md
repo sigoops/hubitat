@@ -26,7 +26,7 @@ Can be used as a virtual device that can send HTTP POST calls with bearer token
 
 
 ### Send Text Notification Event
-Can be used to send an event to Hubitat with provided message. Useful for drivers that pick-up these events, e.g. [hubitat-mqtt-link](https://github.com/mydevbox/hubitat-mqtt-link)
+Can be used to send an event to Hubitat with provided message. Useful for drivers that pick-up these events, e.g. [hubitat-mqtt-link](https://github.com/mydevbox/hubitat-mqtt-link) (add "notification" attribute to `capability.notification`)
 
 #### Usage
 1. Add the driver to Hubitat
