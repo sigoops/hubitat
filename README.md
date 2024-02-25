@@ -2,7 +2,8 @@
 Hubitat Drivers, Scripts, Stuff
 
 ## Drivers
-### Http Json Post
+
+### `httpJsonPost.groovy`
 Can be used as a virtual device that can send HTTP POST calls with bearer token
 
 #### Usage
@@ -24,8 +25,7 @@ Can be used as a virtual device that can send HTTP POST calls with bearer token
 - token: Bearer token
     - Used in the header by the driver as such: `Authorization: Bearer MY_TOKEN`
 
-
-### Send Text Notification Event
+### `sendTextNotificationEvent.groovy`
 Can be used to send an event to Hubitat with provided message. Useful for drivers that pick-up these events, e.g. [hubitat-mqtt-link](https://github.com/mydevbox/hubitat-mqtt-link) (add "notification" attribute to `capability.notification`)
 
 #### Usage
